@@ -22,7 +22,7 @@ This Visual Studio Code extension provides syntax highlighting support and snipp
 
 Type the following commands and hit enter or tab.
 
-[mnml] - Create Master Node with License Header
+**[mnml]** - Create Master Node with License Header
 
 ```xml
 <!--
@@ -61,7 +61,7 @@ Type the following commands and hit enter or tab.
 </node>
 ```
 
-[mnol] - Create Master Node without License Header
+**[mnol]** - Create Master Node without License Header
 
 ```xml
 <node>
@@ -71,13 +71,13 @@ Type the following commands and hit enter or tab.
 </node>
 ```
 
-[sn] - Create Node with Attributes
+**[sn]** - Create Node with Attributes
 
 ```xml
 <node name="node_name" channel="channel" format="category/method" model="model" />
 ```
 
-[mn] - Create Node with Sub Node and Attributes
+**[mn]** - Create Node with Sub Node and Attributes
 
 ```xml
 <node name="node_name" channel="channel" format="category/method" model="model">
