@@ -1,0 +1,33 @@
+{
+  "name": "cybol",
+  "displayName": "CYBOL Support for Visual Studio Code",
+  "description": "This VS Code extension provides syntax highlighting support and snippets for CYBOL specific file.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flashback2k14"
+  },
+  "license": "LICENSE.txt",
+	"icon": "images/logo.png",
+  "categories": [
+    "Other", "Snippets"
+  ],
+  "publisher": "flashback2k14",
+  "extensionDependencies": [
+    "xml"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "xml",
+      "aliases": ["XML", "xml", "CYBOL", "cybol"],
+      "extensions": [".cybol"]
+    }],
+	"snippets": [{
+		"language": "xml",
+		"path": "./snippets/snippets.json"
+	}]
+  }
+}
