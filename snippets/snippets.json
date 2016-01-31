@@ -35,5 +35,12 @@
     "body": "file",
     "description": "channel attribute - file",
     "scope": "text.cybol"
+  },
+    
+  "calab": {
+    "prefix": "calculate-absolute",
+    "body": "calculate/absolute",
+    "description": "format attribute - calulate/absolute",
+    "scope": "text.cybol"
   }
 }
