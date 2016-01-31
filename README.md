@@ -8,8 +8,8 @@ This Visual Studio Code extension provides syntax highlighting support and snipp
 
 1. Install Visual Studio Code from [https://code.visualstudio.com/](https://code.visualstudio.com/).
 2. Locate your home folder. 
-  - on **Windows**, your home folder is probably C:\Users\\*YourName*, 
-  - on **Mac** it's probably /Users/*yourname* and 
+  - on **Windows**, your home folder is probably C:\Users\\*YourName*,
+  - on **Mac** it's probably /Users/*yourname* and
   - on **Linux** it's probably /home/*yourname*
 3. Place the 'vscode-extension-cybol' folder under *[your_home_folder]*/.vscode/extensions.
 4. Restart Visual Studio Code
@@ -26,7 +26,7 @@ Type the following commands and hit enter or tab.
 
 ```xml
 <!--
-    Copyright (C) 1999-2016. Christian Heller.
+  Copyright (C) 1999-2016. Christian Heller.
 
     This knowledge model uses the Cybernetics Oriented Language (CYBOL).
 
@@ -74,14 +74,14 @@ Type the following commands and hit enter or tab.
 **[sn]** - Create Node with Attributes
 
 ```xml
-<node name="node_name" channel="channel" format="category/method" model="model" />
+<node name="node_name" channel="channel" format="category/method" model="model"/>
 ```
 
 **[mn]** - Create Node with Sub Node and Attributes
 
 ```xml
 <node name="node_name" channel="channel" format="category/method" model="model">
-    <node name="sub_node_name" channel="sub_channel" format="category/method" model="sub_model" />
+    <node name="sub_node_name" channel="sub_channel" format="category/method" model="sub_model"/>
 </node>
 
 ```
