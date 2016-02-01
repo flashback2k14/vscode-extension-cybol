@@ -2,7 +2,7 @@
   "name": "cybol",
   "displayName": "CYBOL Support for Visual Studio Code",
   "description": "This VS Code extension provides syntax highlighting support and snippets for CYBOL specific file.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "0.10.x"
   },

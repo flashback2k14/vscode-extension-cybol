@@ -1,29 +1,46 @@
 {
-	"mnml": {
-		"prefix": "mnml",
-		"body": "<!--\r\n\t\tCopyright (C) 1999-2016. Christian Heller.\r\n\r\n\t\tThis knowledge model uses the Cybernetics Oriented Language (CYBOL).\r\n\r\n\t\tCYBOL is free software: you can redistribute it and/or modify it\r\n\t\tunder the terms of the GNU General Public License as published\r\n\t\tby the Free Software Foundation, either version 3 of the License,\r\n\t\tor (at your option) any later version.\r\n\r\n\t\tCYBOL is distributed in the hope that it will be useful,\r\n\t\tbut WITHOUT ANY WARRANTY; without even the implied warranty\r\n\t\tof MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\r\n\t\tSee the GNU General Public License for more details.\r\n\r\n\t\tYou should have received a copy of the GNU General Public License\r\n\t\talong with CYBOL. If not, see <http://www.gnu.org/licenses/>.\r\n\r\n\t\tCybernetics Oriented Programming (CYBOP) <http://www.cybop.org/>\r\n\t\tCYBOP Developers <cybop-developers@nongnu.org>\r\n\r\n\t\t@version CYBOP 0.17.0 2015-04-20\r\n\t\t@author Christian Heller <christian.heller@tuxtax.de>\r\n-->\r\n\r\n<!--\r\n\t\t${1:Program Description}\r\n-->\r\n\r\n<node>\r\n\r\n\t\t${2:<!-- Content -->}\r\n\r\n</node>\r\n",
-		"description": "Create Master Node with License Header",
-		"scope": "text.cybol"
-	},
-  
+  "mnml": {
+    "prefix": "mnml",
+    "body": "<!--\r\n\t\tCopyright (C) 1999-2016. Christian Heller.\r\n\r\n\t\tThis knowledge model uses the Cybernetics Oriented Language (CYBOL).\r\n\r\n\t\tCYBOL is free software: you can redistribute it and/or modify it\r\n\t\tunder the terms of the GNU General Public License as published\r\n\t\tby the Free Software Foundation, either version 3 of the License,\r\n\t\tor (at your option) any later version.\r\n\r\n\t\tCYBOL is distributed in the hope that it will be useful,\r\n\t\tbut WITHOUT ANY WARRANTY; without even the implied warranty\r\n\t\tof MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\r\n\t\tSee the GNU General Public License for more details.\r\n\r\n\t\tYou should have received a copy of the GNU General Public License\r\n\t\talong with CYBOL. If not, see <http://www.gnu.org/licenses/>.\r\n\r\n\t\tCybernetics Oriented Programming (CYBOP) <http://www.cybop.org/>\r\n\t\tCYBOP Developers <cybop-developers@nongnu.org>\r\n\r\n\t\t@version CYBOP 0.17.0 2015-04-20\r\n\t\t@author Christian Heller <christian.heller@tuxtax.de>\r\n-->\r\n\r\n<!--\r\n\t\t${1:Program Description}\r\n-->\r\n\r\n<node>\r\n\r\n\t\t${2:<!-- Content -->}\r\n\r\n</node>\r\n",
+    "description": "Create Master Node with License Header",
+    "scope": "text.cybol"
+  },
   "mnol": {
     "prefix": "mnol",
-		"body": "\r\n<node>\r\n\r\n\t\t${2:<!-- Content -->}\r\n\r\n</node>\r\n",
-		"description": "Create Master Node without License Header",
-		"scope": "text.cybol"
+    "body": "\r\n<node>\r\n\r\n\t\t${2:<!-- Content -->}\r\n\r\n</node>\r\n",
+    "description": "Create Master Node without License Header",
+    "scope": "text.cybol"
   },
-  
   "sn": {
     "prefix": "sn",
-		"body": "<node name=\"${1:node_name}\" channel=\"${2:channel}\" format=\"${3:category}\/${4:method}\" model=\"${5:model}\" />",
-		"description": "Create Node with Attributes",
-		"scope": "text.cybol"
+    "body": "<node name=\"${1:node_name}\" channel=\"${2:channel}\" format=\"${3:category}\/${4:method}\" model=\"${5:model}\" />",
+    "description": "Create Node with Attributes",
+    "scope": "text.cybol"
   },
-  
    "mn": {
     "prefix": "mn",
-		"body": "\r\n<node name=\"${1:node_name}\" channel=\"${2:channel}\" format=\"${3:category}\/${4:method}\" model=\"${5:model}\">\r\n\t\t<node name=\"${6:sub_node_name}\" channel=\"${7:sub_channel}\" format=\"${8:category}\/${9:method}\" model=\"${10:sub_model}\" />\r\n</node>",
-		"description": "Create Node with Sub Node and Attributes",
-		"scope": "text.cybol"
+    "body": "\r\n<node name=\"${1:node_name}\" channel=\"${2:channel}\" format=\"${3:category}\/${4:method}\" model=\"${5:model}\">\r\n\t\t<node name=\"${6:sub_node_name}\" channel=\"${7:sub_channel}\" format=\"${8:category}\/${9:method}\" model=\"${10:sub_model}\" />\r\n</node>",
+    "description": "Create Node with Sub Node and Attributes",
+    "scope": "text.cybol"
+  },
+  
+  "chi": {
+    "prefix": "chi",
+    "body": "inline",
+    "description": "Channel Attribute - inline",
+    "scope": "text.cybol"
+  },
+  "chf": {
+    "prefix": "chf",
+    "body": "file",
+    "description": "Channel Attribute - file",
+    "scope": "text.cybol"
+  },
+  
+  "calab": {
+    "prefix": "calab",
+    "body": "calculate/absolute",
+    "description": "Format Attribute - calulate/absolute",
+    "scope": "text.cybol"
   }
 }
